@@ -44,7 +44,7 @@ module "lb_target_group" {
   ec2_instance_id          = module.ec2.dev_proj_1_ec2_instance_id
 }
 
-module "alb" {
+/*module "alb" {
   source                    = "./load-balancer"
   lb_name                   = "dev-proj-1-alb"
   is_external               = false
@@ -74,7 +74,7 @@ module "aws_ceritification_manager" {
   source         = "./certificate-manager"
   domain_name    = var.domain_name
   hosted_zone_id = module.hosted_zone.hosted_zone_id
-}
+}*/
 
 module "rds_db_instance" {
   source               = "./rds"
