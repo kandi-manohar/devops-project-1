@@ -13,4 +13,4 @@ ec2_ami_id     = "ami-004e960cde33f9146"
 
 ec2_user_data_install_apache = ""
 
-# domain_name = "http://3.254.84.165:8080/"
+domain_name = "http://horsecloud.page.gd/"
